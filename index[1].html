@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameZone</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0f;
+    color: white;
+}
+
+header {
+    background: #15151d;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #17172a, #071b16);
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.button {
+    background: #00ff88;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.games {
+    padding: 50px;
+    text-align: center;
+}
+
+.games h2 {
+    font-size: 35px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game {
+    background: #181820;
+    width: 230px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+.game h3 {
+    font-size: 24px;
+}
+
+.game p {
+    color: #aaa;
+}
+
+.play {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00ff88;
+    text-decoration: none;
+}
+
+footer {
+    background: #15151d;
+    text-align: center;
+    padding: 25px;
+    color: #888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎮 GAMEZONE</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>WELCOME GAMER 🔥</h1>
+    <p>Your ultimate gaming world.</p>
+    <a class="button" href="#games">EXPLORE GAMES</a>
+</section>
+
+<section class="games" id="games">
+    <h2>🎮 Popular Games</h2>
+
+    <div class="game-container">
+
+        <div class="game">
+            <h3>⚽ FIFA</h3>
+            <p>Football. Competition. Glory.</p>
+            <a class="play" href="#">PLAY NOW →</a>
+        </div>
+
+        <div class="game">
+            <h3>🏎️ Racing</h3>
+            <p>Race at incredible speeds.</p>
+            <a class="play" href="#">PLAY NOW →</a>
+        </div>
+
+        <div class="game">
+            <h3>🎯 Battle</h3>
+            <p>Fight to become the champion.</p>
+            <a class="play" href="#">PLAY NOW →</a>
+        </div>
+
+        <div class="game">
+            <h3>🧟 Adventure</h3>
+            <p>Explore dangerous worlds.</p>
+            <a class="play" href="#">PLAY NOW →</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="games" id="about">
+    <h2>🔥 About GameZone</h2>
+    <p>GameZone is a website made for gamers who love games, competition and fun.</p>
+</section>
+
+<footer>
+    © 2026 GameZone | Made by a Gamer 🎮
+</footer>
+
+</body>
+</html>
